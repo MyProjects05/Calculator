@@ -1,0 +1,99 @@
+html, body{
+    height: 100%;
+    background-color:bisque;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 600px;
+    outline: 2px solid grey;
+}
+
+.screen{
+    display: flex;
+    flex: 1 1 200px;
+    height: 200px;
+    outline: 10px solid grey;
+    border-radius: 4px;
+    justify-content: end;
+    align-items: center;
+    background-color:gray;
+}
+
+.variables{
+    display: flex;
+    flex: 4 1 600px;
+    outline: 2px solid grey;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    flex: 5 1 500px;
+    outline: 2px solid grey;
+}
+
+.operators{
+    display: flex;
+    flex: 2 1 200px;
+    outline: 2px solid grey;
+}
+
+.nums, .clear{
+    display: flex;
+    flex: 1 1 125px;
+    outline: 2px solid grey;
+}
+
+.digits{
+    flex: 1 1 142.8px;
+    outline: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ca{
+    flex: 2 1 285.6px;
+    outline: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+
+.operation{
+    flex: 1 1 120px;
+    outline: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.var{
+    font-size: 40px;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+;
+}
+.op{
+    display: flex;
+}
+
+.scrnNumber{
+    flex: 0 0 20px;
+    font-size: 80px;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    margin-right: 40px;
+}
